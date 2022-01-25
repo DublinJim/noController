@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scrap.PrimaryController">
+   <children>
+      <Label fx:id="lbl1" layoutX="217.0" layoutY="64.0" text="Primary scene">
+         <effect>
+            <DropShadow height="8.13" radius="1.5325000000000002" spread="0.35" width="0.0">
+               <color>
+                  <Color red="0.10370370000600815" green="0.3938271701335907" blue="0.800000011920929" />
+               </color>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
