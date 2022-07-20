@@ -2,7 +2,6 @@ package com.example.scrap;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -16,15 +15,13 @@ public class PrimaryController implements Initializable {
     @FXML
     Button btn1;
 
-    public void here(ActionEvent event) {
+    public void here() {
         lbl1.setText("achieved");
     }
 
     public void initilize()
     {
-        btn1.setOnAction(event -> {
-            lbl1.setText("Bingo");
-        });
+        btn1.setOnAction(event -> lbl1.setText("Bingo"));
     }
 
 
