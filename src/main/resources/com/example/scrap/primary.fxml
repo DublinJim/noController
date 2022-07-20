@@ -6,21 +6,28 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" style="-fx-background-color: Black;" maxHeight="-Infinity" maxWidth="-Infinity"
+  minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+  prefWidth="600.0" xmlns="http://javafx.com/javafx/17"
+  fx:controller="com.example.scrap.PrimaryController">
+  <children>
+    <Button layoutX="274.0" layoutY="217.0" mnemonicParsing="false" onAction="#here" text="Button"
+      fx:id="btn1"/>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scrap.PrimaryController">
-    <children>
-        <Label fx:id="lbl1" layoutX="191.0" layoutY="62.0" text="Primary scene 1" textFill="#faecec">
-            <effect>
-                <DropShadow height="8.13" radius="1.5325000000000002" spread="0.35" width="0.0">
-                    <color>
-                        <Color red="0.10370370000600815" green="0.3938271701335907" blue="0.800000011920929" />
-                    </color>
-                </DropShadow>
-            </effect>
-            <font>
-                <Font size="27.0" />
-            </font>
-        </Label>
-      <Button fx:id="btn1" layoutX="274.0" layoutY="217.0" mnemonicParsing="false" onAction="#here" text="Button" />
-    </children>
+      <Button layoutX="174.0" layoutY="217.0" mnemonicParsing="false" onAction="#here" text="Button 2"
+        fx:id="btn2"/>
+
+    <Label layoutX="191.0" layoutY="62.0" text="Primary scene 1" textFill="#faecec" fx:id="lbl1">
+      <effect>
+        <DropShadow height="8.13" radius="1.5325000000000002" spread="0.35" width="0.0">
+          <color>
+            <Color blue="0.800000011920929" green="0.3938271701335907" red="0.10370370000600815"/>
+          </color>
+        </DropShadow>
+      </effect>
+      <font>
+        <Font size="27.0"/>
+      </font>
+    </Label>
+  </children>
 </AnchorPane>
