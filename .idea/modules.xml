@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/scrap.iml" filepath="$PROJECT_DIR$/scrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxmlNoController.iml" filepath="$PROJECT_DIR$/fxmlNoController.iml" />
     </modules>
   </component>
 </project>
